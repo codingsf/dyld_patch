@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="dyld_patch"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dyld_patch">
+				<Option output="/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug/dyld_patch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug/Makefile&quot;  VERBOSE=1 dyld_patch"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dyld_patch/fast">
+				<Option output="/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug/dyld_patch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug/Makefile&quot;  VERBOSE=1 dyld_patch/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/publictest/CLionProjects/dyld_patch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/ImageLoader.cpp">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/ImageLoader.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/ImageLoaderMachO.cpp">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/ImageLoaderMachO.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/ImageLoaderMachOClassic.cpp">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/ImageLoaderMachOClassic.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/ImageLoaderMachOCompressed.cpp">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/ImageLoaderMachOCompressed.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/_simple.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/codesign.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/cpu_capabilities.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/csr.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/dyld-interposing.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/dyld.cpp">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/dyld.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/dyldAPIIsInLibSystem.cpp">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/dyldAPIs.cpp">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/dyldLibSystemGlue.cpp">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/dyldLibSystemInterface.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/dyldLock.cpp">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/dyldLock.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/dyldSyscallInterface.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/dyld_cache_format.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/dyld_gdb.cpp">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/dyld_gdb.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/dyld_images.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/dyld_priv.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/dyld_process_info.cpp">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/dyld_process_info.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/dyld_process_info_internal.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/dyld_process_info_notify.cpp">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/dyld_stub_binder.s">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/glue.cpp">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/private.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/reason.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/start_glue.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/start_glue.s">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/threadLocalHelpers.s">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/threadLocalVariables.cpp">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/code/vproc_priv.h">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/main.cpp">
+			<Option target="dyld_patch"/>
+		</Unit>
+		<Unit filename="/Users/publictest/CLionProjects/dyld_patch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

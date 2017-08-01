@@ -1,0 +1,3 @@
+/Users/publictest/CLionProjects/dyld_patch/CMakeFiles/rebuild_cache.dir
+/Users/publictest/CLionProjects/dyld_patch/CMakeFiles/edit_cache.dir
+/Users/publictest/CLionProjects/dyld_patch/CMakeFiles/dyld_patch.dir

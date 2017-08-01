@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/publictest/CLionProjects/dyld_patch/code/cpu_capabilities.h
+i386/cpu_capabilities.h
+/Users/publictest/CLionProjects/dyld_patch/code/i386/cpu_capabilities.h
+System/i386/cpu_capabilities.h
+-
+
+/Users/publictest/CLionProjects/dyld_patch/code/dyld_stub_binder.s
+TargetConditionals.h
+-
+cpu_capabilities.h
+/Users/publictest/CLionProjects/dyld_patch/code/cpu_capabilities.h
+
+/Users/publictest/CLionProjects/dyld_patch/code/start_glue.s
+
+/Users/publictest/CLionProjects/dyld_patch/code/threadLocalHelpers.s
+cpu_capabilities.h
+/Users/publictest/CLionProjects/dyld_patch/code/cpu_capabilities.h
+
